@@ -1,0 +1,22 @@
+
+
+var details =  {
+  name : "sow",
+  age : 32,
+  add :"madurai",
+  major : "Sociology",
+  MaritalStatus : "M"
+  
+};
+details.year = 1992;
+details.add = "India"
+delete details.MaritalStatus;
+console.log(details);
+
+
+details.attendance =["monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+ for (let i=0; i<details.attendance.length; i++){
+     
+console.log(details.attendance[i]);
+
+}
